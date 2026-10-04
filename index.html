@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Remember</title>
+    <meta name="description" content="Privacy Policy for Remember Android Application by Sonal Pal">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #7A37DB;
+            --primary-dark: #581EB5;
+            --primary-light: #F4EFFF;
+            --primary-surface: #F9F7FD;
+            --text-main: #1E1B26;
+            --text-secondary: #575266;
+            --text-muted: #847E96;
+            --border: #E8E5F0;
+            --card-bg: #FFFFFF;
+            --bg-page: #FBFBFE;
+            --radius-sm: 8px;
+            --radius-md: 14px;
+            --radius-lg: 20px;
+            --shadow-sm: 0 2px 8px rgba(122, 55, 219, 0.04);
+            --shadow-md: 0 8px 24px rgba(122, 55, 219, 0.07);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding: 32px 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 40px 32px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 28px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, #7A37DB, #AC51F2, #4F46E5);
+        }
+
+        .app-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary-light);
+            color: var(--primary-dark);
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .app-badge::before {
+            content: "";
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--primary);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            max-width: 620px;
+            margin: 0 auto 24px;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            text-align: left;
+            background: var(--primary-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin-top: 16px;
+        }
+
+        .meta-item {
+            font-size: 0.85rem;
+        }
+
+        .meta-item span {
+            display: block;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 2px;
+            font-weight: 600;
+        }
+
+        .meta-item strong {
+            color: var(--text-main);
+            font-weight: 600;
+            word-break: break-all;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .section-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 28px 24px;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .section-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 .section-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background-color: var(--primary-light);
+            color: var(--primary);
+            font-size: 0.85rem;
+            border-radius: 50%;
+            font-weight: 700;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+            font-size: 0.95rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 24px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--primary);
+            font-size: 1.4rem;
+            position: absolute;
+            left: 6px;
+            top: -4px;
+        }
+
+        ul li strong {
+            color: var(--text-main);
+        }
+
+        .highlight-box {
+            background-color: var(--primary-surface);
+            border-left: 4px solid var(--primary);
+            padding: 16px;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 16px 0;
+        }
+
+        .highlight-box p {
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 0.92rem;
+            margin-bottom: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px 14px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background-color: var(--primary-surface);
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        td {
+            color: var(--text-secondary);
+        }
+
+        code {
+            background: #EFEBF7;
+            color: var(--primary-dark);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-family: monospace;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-card {
+            background: linear-gradient(135deg, var(--card-bg), var(--primary-surface));
+            border: 1px solid var(--border);
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary);
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            text-decoration: none;
+            margin-top: 8px;
+            transition: background-color 0.2s;
+        }
+
+        .contact-btn:hover {
+            background: var(--primary-dark);
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 16px 12px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 16px 12px;
+            }
+            header {
+                padding: 28px 18px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+            .section-card {
+                padding: 20px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="app-badge">Official Privacy Policy</div>
+        <h1>Privacy Policy for Remember</h1>
+        <p class="subtitle">
+            This Privacy Policy explains how <strong>Remember</strong> collects, uses, and safeguards your information when you use our mobile application.
+        </p>
+
+        <div class="meta-grid">
+            <div class="meta-item">
+                <span>Application Name</span>
+                <strong>Remember</strong>
+            </div>
+            <div class="meta-item">
+                <span>Package Name</span>
+                <strong><code>com.aistudio.remember.xqmpyw</code></strong>
+            </div>
+            <div class="meta-item">
+                <span>Developer / Owner</span>
+                <strong>Sonal Pal</strong>
+            </div>
+            <div class="meta-item">
+                <span>Last Updated</span>
+                <strong>October 04, 2026</strong>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Introduction -->
+        <section class="section-card">
+            <h2><span class="section-num">1</span> Overview & Core Philosophy</h2>
+            <p>
+                <strong>Remember</strong> is an educational workflow and procedure-learning Android application created by <strong>Sonal Pal</strong>. It empowers users to capture, document, organize, and step-by-step replay learning procedures, study guides, and workflows.
+            </p>
+            <p>
+                We believe your personal study notes and learning workflows belong entirely to you. Our architecture is designed with an <strong>offline-first approach</strong>, prioritizing on-device data storage and local operations.
+            </p>
+        </section>
+
+        <!-- 2. Information We Collect -->
+        <section class="section-card">
+            <h2><span class="section-num">2</span> Information We Collect</h2>
+            <p>Depending on how you use Remember, we may collect the following types of information:</p>
+
+            <ul>
+                <li>
+                    <strong>User-Generated Study & Process Data:</strong> Information you voluntarily create within the app, such as process titles, step descriptions, explanations, educational notes, study categories, and creation timestamps.
+                </li>
+                <li>
+                    <strong>Authentication & Account Information (Optional):</strong> If you choose to sign in to save or synchronize your processes across devices, we collect your email address and generated unique user identifier (UID) via Firebase Authentication.
+                </li>
+                <li>
+                    <strong>Technical & Connectivity Diagnostics:</strong> Basic network status indicators to verify if your device has internet access before initiating cloud synchronization.
+                </li>
+            </ul>
+
+            <div class="highlight-box">
+                <p>🔒 <strong>No Unnecessary Tracking:</strong> Remember does not collect your physical location, contacts, phone calls, SMS, microphone recordings, or biometric data.</p>
+            </div>
+        </section>
+
+        <!-- 3. Permissions Requested -->
+        <section class="section-card">
+            <h2><span class="section-num">3</span> Android Permissions Used</h2>
+            <p>Remember requests only minimal, necessary system permissions to function reliably on your device:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Type</th>
+                        <th>Purpose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>android.permission.INTERNET</code></td>
+                        <td>Normal / Install-time</td>
+                        <td>Allows optional cloud account login and database sync with secure Firebase servers.</td>
+                    </tr>
+                    <tr>
+                        <td><code>android.permission.ACCESS_NETWORK_STATE</code></td>
+                        <td>Normal / Install-time</td>
+                        <td>Enables the application to detect whether an active internet connection is available before attempting cloud sync.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. How Your Data is Stored and Protected -->
+        <section class="section-card">
+            <h2><span class="section-num">4</span> Data Storage & Security</h2>
+            <p>We implement strict security measures to protect your learning data:</p>
+            <ul>
+                <li>
+                    <strong>Local On-Device Database:</strong> Your processes and steps are stored in an encrypted/sandboxed SQLite Room Database (<code>AppDatabase</code>) within the application's private storage directory. No other app on your device can access this data.
+                </li>
+                <li>
+                    <strong>Encryption in Transit:</strong> Whenever data is transmitted between the app and backend services (such as Firebase Authentication), all communications are strictly encrypted using standard Transport Layer Security (TLS/HTTPS).
+                </li>
+                <li>
+                    <strong>Secure Cloud Infrastructure:</strong> Cloud backend services are managed using Google Firebase infrastructure with role-based access rules.
+                </li>
+            </ul>
+        </section>
+
+        <!-- 5. Third-Party Services -->
+        <section class="section-card">
+            <h2><span class="section-num">5</span> Third-Party Services & SDKs</h2>
+            <p>
+                Remember utilizes verified, trusted third-party service providers compliant with Google Play Policies:
+            </p>
+            <ul>
+                <li>
+                    <strong>Google Play Services:</strong> Core application maintenance, runtime framework, and app delivery.<br>
+                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
+                </li>
+                <li>
+                    <strong>Google Firebase (Authentication & Cloud Database):</strong> Manages optional user account identity and encrypted cloud data storage.<br>
+                    <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy and Security Documentation</a>
+                </li>
+            </ul>
+            <p>We do <strong>not</strong> sell, rent, monetize, or trade your personal data or user-generated workflows with third-party advertisers or data brokers.</p>
+        </section>
+
+        <!-- 6. Data Retention & Deletion Rights -->
+        <section class="section-card">
+            <h2><span class="section-num">6</span> Your Data Rights & Deletion</h2>
+            <p>
+                In compliance with global data privacy regulations (including GDPR and Google Play User Data policies), you have complete control over your data:
+            </p>
+            <ul>
+                <li>
+                    <strong>In-App Deletion:</strong> You can edit or permanently delete any process, guide, or step directly within the Remember app at any time.
+                </li>
+                <li>
+                    <strong>Complete Account & Data Removal Request:</strong> You can request full deletion of your account and any associated cloud data by emailing the developer at <a href="mailto:palsonal57@gmail.com">palsonal57@gmail.com</a> with the subject line <em>"Account / Data Deletion Request - Remember"</em>. Requests are processed within 30 days.
+                </li>
+                <li>
+                    <strong>App Uninstall:</strong> Uninstalling the application immediately wipes all locally stored offline database records from your device.
+                </li>
+            </ul>
+        </section>
+
+        <!-- 7. Children's Privacy -->
+        <section class="section-card">
+            <h2><span class="section-num">7</span> Children's Privacy</h2>
+            <p>
+                Remember is designed for general audiences and educational purposes. We do not knowingly collect or solicit personal identifiable information from children under the age of 13 (or under 16 in certain jurisdictions).
+            </p>
+            <p>
+                If you are a parent or guardian and discover that your child has provided us with personal information without consent, please contact us immediately, and we will promptly remove the information.
+            </p>
+        </section>
+
+        <!-- 8. Changes to This Privacy Policy -->
+        <section class="section-card">
+            <h2><span class="section-num">8</span> Changes to This Policy</h2>
+            <p>
+                We may periodically update our Privacy Policy to reflect app improvements, new features, or legal requirements. Any modifications will be posted on this page with an updated "Last Updated" date. We encourage you to review this Privacy Policy periodically.
+            </p>
+        </section>
+
+        <!-- 9. Contact Information -->
+        <section class="section-card contact-card">
+            <h2><span class="section-num">9</span> Contact Us</h2>
+            <p>
+                If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact the developer:
+            </p>
+            <ul>
+                <li><strong>Developer Name:</strong> Sonal Pal</li>
+                <li><strong>Application:</strong> Remember (<code>com.aistudio.remember.xqmpyw</code>)</li>
+                <li><strong>Email Support:</strong> <a href="mailto:palsonal57@gmail.com">palsonal57@gmail.com</a></li>
+            </ul>
+            <a href="mailto:palsonal57@gmail.com?subject=Privacy%20Inquiry%20-%20Remember%20App" class="contact-btn">
+                Contact Developer (Sonal Pal)
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Remember &bull; Developed by Sonal Pal &bull; All Rights Reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
